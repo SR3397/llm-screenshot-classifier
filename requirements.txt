@@ -1,0 +1,25 @@
+# Core dependencies
+torch>=2.0.0
+numpy>=1.20.0
+pillow>=9.0.0
+tqdm>=4.62.0
+transformers>=4.30.0
+llama-cpp-python>=0.2.0
+# For CUDA acceleration with llama-cpp-python, use:
+# llama-cpp-python-cuda>=0.2.0
+
+# Logging and utilities
+python-json-logger>=2.0.0
+
+# OCR Engines (uncomment based on your choice)
+
+# Option 1: PaddleOCR (recommended for highest accuracy)
+# paddlepaddle-gpu>=2.4.0
+# paddleocr>=2.6.0
+
+# Option 2: EasyOCR (good balance of speed and accuracy)
+# easyocr>=1.6.0
+
+# Option 3: Tesseract OCR (fastest)
+# pytesseract>=0.3.10
+# Note: Tesseract OCR engine must be installed separately
